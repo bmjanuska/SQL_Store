@@ -12,7 +12,7 @@ CREATE TABLE products(
 	-- * department_name
 	department_name VARCHAR(225) NOT NULL,
 	-- * price (cost to customer)
-	price DECIMAL(10.2) NOT NULL,
+	price DECIMAL(10,2) NOT NULL,
 	-- * stock_quantity (how much of the product is available in stores)
 	stock_quantity INT(10) NOT NULL,
 	PRIMARY KEY (item_id)
